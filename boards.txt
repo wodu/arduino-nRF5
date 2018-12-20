@@ -954,6 +954,7 @@ SeeedArchLink.name=Seeed Arch Link
 SeeedArchLink.upload.tool=sandeepmistry:openocd
 SeeedArchLink.upload.target=nrf51
 SeeedArchLink.upload.protocol=cmsis-dap
+SeeedArchLink.upload.setup_command=transport select swd;
 SeeedArchLink.upload.maximum_size=262144
 
 SeeedArchLink.bootloader.tool=sandeepmistry:openocd
